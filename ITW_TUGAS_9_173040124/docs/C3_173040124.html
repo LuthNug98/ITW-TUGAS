@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h3>jawab pertanyaan berikut ini:</h3>
+	<p>apa kepanjangan HTML ?</p>
+	<P>Jawaban</P>
+	<a href="#" onclick="pilihAksi('tampilkan', 'Jawaban'); return false">Tampilkan</a>
+	<a href="#" onclick="pilihAksi('sembunyikan', 'jawaban'); return false">Sembunyikan</a>
+
+	<P id='jawaban' style='display: none;'>Hypertext markup Languages</P>
+
+	<script>
+		function pilihAksi(aksi, id) {
+
+			if (aksi === "tampilkan") {
+				document.getElementById('jawaban').style.display = "block";
+			}else{
+				document.getElementById('jawaban').style.display = "none";
+			}
+		}
+
+	</script>
+
+</body>
+</html>

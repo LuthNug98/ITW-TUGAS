@@ -1,0 +1,71 @@
+body{
+	background-color: black;
+
+}
+
+.login{
+	width: 280px;
+	height: 250px;
+	background-color: lightblue;
+	margin: 0px auto;
+	position: absolute;
+	border: 10px solid white;
+	margin-top: 200px;
+	margin-left: 500px;
+}
+
+.ghost{
+	width: 200px;
+	padding: 8px;
+	color: #fff;
+	border: 1px solid #fff;
+	text-align: center;
+	outline: white;
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: black;
+	cursor: hand;
+}
+
+.center{
+	margin: 0 auto;
+	width: 200px;
+}
+
+.user{
+	width: 120px;
+	margin: 0 auto;
+}
+
+.user img{
+	width: 100px
+}
+
+.btn{
+	width: 120px;
+	padding: 8px;
+	color: #fff;
+	border: 1px solid #fff;
+	text-align: center;
+	font-size: 15px;
+	color: black;
+}
+
+.xbtn{
+	position: absolute;
+	right: -5px;
+	bottom: 217px;
+}
+
+.xbtn img{
+	width: 30px;
+	border-radius: 100px;
+	border: 1px solid black;
+}
+
+
+.index {
+
+	bottom: 200px;
+
+}

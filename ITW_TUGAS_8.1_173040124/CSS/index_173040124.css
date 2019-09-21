@@ -1,0 +1,58 @@
+* {margin:0; padding:0;}
+ 
+body {
+    background-image: url(../image/bg2.jpg);
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    text-align:center;
+    
+}
+
+h1{
+	font-family: "comic sans ms";
+	font-size: 50px;
+	color:blue;
+	text-align: center;
+}
+h4{
+	text-align: right;
+	font-family: arial;
+	font-style: italic;
+	text-align: center;
+}
+p{
+	text-indent: 50px;
+	text-align: justify;
+	font-family: verdana;
+}
+h3{
+	font-variant: small-caps;
+	text-align: center;
+	color: red;
+}
+
+
+a{
+	text-decoration:none;
+	color: blue;
+	font-weight:bold;
+}
+a:hover{
+	color: red;
+	text-decoration:underline;
+}
+
+#page-wrap {
+	text-align: center;
+
+
+}
+
+.lol {
+	color: blue;
+	text-align: center;
+
+
+}
+
+

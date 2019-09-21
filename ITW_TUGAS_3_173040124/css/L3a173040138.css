@@ -1,0 +1,28 @@
+body{
+	background-color: aqua;
+	font-family: "century gothic";
+	}
+h1{
+	font-family: "comic sans ms";
+	font-size: 60px;
+	color:darkblue;
+	text-align: center;
+}
+h4{
+	text-align: right;
+	font-style: italic;
+}
+p{
+	text-indent: 50px;
+	text-align: justify;
+
+}
+.index{
+	text-decoration:none;
+	color: blue;
+	font-weight:bold;
+}
+.index:hover{
+	color: red;
+	text-decoration:underline;
+}
